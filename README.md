@@ -7,7 +7,8 @@ Colección de scripts bash para acciones personalizadas en Thunar (XFCE File Man
 ```
 bash-thunar/
 ├── clipboard/
-│   └── copy-image.sh          # Copiar imagen del clipboard
+│   ├── copy-image.sh          # Copiar imagen del clipboard
+│   └── copiarBasename.sh      # Copiar nombre base al portapapeles
 ├── files/
 │   ├── open-terminal-here.sh  # Abrir terminal en directorio
 │   ├── compress-files.sh      # Comprimir archivos a .tar.gz
@@ -68,6 +69,13 @@ cd ~/scripts/bash-thunar
 - **Descripción:** Ver información de imagen
 - **Comando:** `bash ~/scripts/bash-thunar/media/image-info.sh %f`
 - **Condiciones:** Imágenes
+
+### Ejemplo: Copiar nombre base al clipboard
+
+- **Nombre:** Copiar Nombre
+- **Descripción:** Copiar nombre sin extensión al portapapeles
+- **Comando:** `bash ~/scripts/bash-thunar/clipboard/copiarBasename.sh %n`
+- **Condiciones:** Archivos, Directorios
 
 ### Ejemplo: Copiar imagen del clipboard
 
