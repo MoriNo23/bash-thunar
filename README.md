@@ -15,7 +15,7 @@ bash-thunar/
 │   ├── calculate-hash.sh      # Calcular hash MD5/SHA256
 │   └── rename-batch.sh        # Renombrar archivos en lote
 ├── media/
-│   ├── aplicarMiniatura.sh    # Aplicar miniatura con cover-thumbnailer
+│   ├── applyThumbnail.sh     # Apply thumbnail with cover-thumbnailer
 │   ├── image-info.sh          # Información de imagen
 │   └── convert-to-png.sh      # Convertir imagen a PNG
 └── utils/
@@ -64,11 +64,11 @@ cd ~/scripts/bash-thunar
 - **Comando:** `bash ~/scripts/bash-thunar/files/rename-batch.sh %F`
 - **Condiciones:** Archivos, Múltiples
 
-### Ejemplo: Aplicar miniatura a carpeta
+### Ejemplo: Apply thumbnail to folder
 
-- **Nombre:** Aplicar Miniatura
-- **Descripción:** Generar miniatura con cover-thumbnailer
-- **Comando:** `bash ~/scripts/bash-thunar/media/aplicarMiniatura.sh %f`
+- **Nombre:** Apply Thumbnail
+- **Descripción:** Generate folder thumbnail with cover-thumbnailer
+- **Comando:** `bash ~/scripts/bash-thunar/media/applyThumbnail.sh %f`
 - **Condiciones:** Directorios
 - **Dependencia:** `sudo apt install cover-thumbnailer`
 
