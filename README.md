@@ -24,7 +24,7 @@ bash-thunar/
 ## Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/bash-thunar.git ~/scripts/bash-thunar
+git clone https://github.com/MoriNo23/bash-thunar.git ~/scripts/bash-thunar
 cd ~/scripts/bash-thunar
 ```
 
